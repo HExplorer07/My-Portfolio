@@ -59,7 +59,7 @@ bSite.addEventListener("click",(event)=>{
 
 tSite.addEventListener("click",(event)=>{
     event.preventDefault()
-    var urlToOpen = "https://github.com/Chandru070/Text-Speaker"
+    var urlToOpen = " https://hberlin07.github.io/Text-Speaker/"
     window.open(urlToOpen,'_blank')
 })
 
