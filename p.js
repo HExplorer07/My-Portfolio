@@ -144,9 +144,9 @@ darkModeIcon.onclick = () => {
 
 ScrollReveal({
     // reset: true,
-    distance: '80px',
+    distance: '60px',
     duration: 2000,
-    delay: 200
+    delay: 100
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
