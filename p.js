@@ -41,7 +41,7 @@ const tSite = document.getElementById('t-site')
 
 link.addEventListener('click',(event)=> {
     event.preventDefault();
-    var urlToOpen = "www.linkedin.com/in/hariharachandru-v-747ba0265"
+    var urlToOpen = "https://www.linkedin.com/in/hariharachandru-v-747ba0265/"
     window.open(urlToOpen,'_blank')
   });
 
