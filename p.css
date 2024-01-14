@@ -288,7 +288,7 @@ section {
 
 .home-img img {
     margin: -130px 0 0 320px;
-    position:static;
+    position:sticky;
     bottom: 0;
     right: 40px;
     pointer-events: none;
