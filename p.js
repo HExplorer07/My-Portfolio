@@ -47,7 +47,7 @@ link.addEventListener('click',(event)=> {
 
 git.addEventListener("click",(event)=>{
     event.preventDefault();
-    var urlToOpen = "https://github.com/Chandru070"
+    var urlToOpen = "https://github.com/Harii10"
     window.open(urlToOpen,'_blank')
 })  
 
