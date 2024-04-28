@@ -1,4 +1,3 @@
-
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -38,6 +37,7 @@ const link = document.getElementById('link')
 const git = document.getElementById('git')
 const bSite = document.getElementById('b-site')
 const tSite = document.getElementById('t-site')
+const wSite = document.getElementById('w-site')
 
 link.addEventListener('click',(event)=> {
     event.preventDefault();
@@ -60,6 +60,12 @@ bSite.addEventListener("click",(event)=>{
 tSite.addEventListener("click",(event)=>{
     event.preventDefault()
     var urlToOpen = "https://hberlin07.github.io/Text-Speaker/  "
+    window.open(urlToOpen,'_blank')
+})
+
+wSite.addEventListener("click",(event)=>{
+    event.preventDefault()
+    var urlToOpen = "https://main--denay.netlify.app/"
     window.open(urlToOpen,'_blank')
 })
 
